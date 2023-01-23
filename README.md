@@ -56,16 +56,11 @@ $  node deploy-command.js // for initialize discord command handler
 $  node app.js
 ```
 
-## Screen Capture Result
+## Screen Capture
 
-- Jadwal Sholat / Prayer Schedule
-  ![result](screen/image1.png)
-
-- Surah
-  ![surah](screen/image3.png)
-
-- Open AI Answer Question
-  ![result](screen/image2.png)
+![result](screen/image1.png)
+![surah](screen/image3.png)
+![result](screen/image2.png)
 
 ---
 
