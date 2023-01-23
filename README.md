@@ -56,6 +56,12 @@ $  node deploy-command.js // for initialize discord command handler
 $  node app.js
 ```
 
+5. if your running inside container, you can pull the official image
+
+```bash
+$ docker pull registry.gitlab.com/zainal21/discord-bot
+```
+
 ## Screen Capture
 
 ![result](screen/image1.png)

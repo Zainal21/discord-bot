@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /
 
 COPY package.json ./
 
@@ -10,4 +10,4 @@ COPY . .
 
 RUN node deploy-commands.js
 
-RUN node app.js
+CMD [ "node", "app.js" ]
