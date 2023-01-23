@@ -46,7 +46,6 @@ module.exports = {
             { name: "Dzuhur", value: dzuhur, inline: true },
             { name: "Ashar", value: ashr, inline: true },
             { name: "Maghrib", value: magrib, inline: true },
-            { name: "Isya", value: isya, inline: true },
             {
               name: "Sumber Data",
               value: "https://github.com/lakuapik/jadwalsholatorg",
