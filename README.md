@@ -60,6 +60,7 @@ $  node app.js
 
 ```bash
 $ docker pull registry.gitlab.com/zainal21/discord-bot
+$ docker run -it registry.gitlab.com/zainal21/discord-bot:latest  //-it running with iteractive shell
 ```
 
 ## Screen Capture
