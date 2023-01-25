@@ -19,16 +19,11 @@ module.exports = {
     const _location = interaction.options.getString("lokasi").toLowerCase();
     const _endpoint = `https://raw.githubusercontent.com/lakuapik/jadwalsholatorg/master/adzan/${_location}/${_year}/${_month}.json`;
     await interaction.deferReply();
-    console.log(_year);
-    console.log(_month);
-    console.log(_currentDate);
-    console.log(_endpoint);
     axios
       .get(_endpoint)
       .then((res) => {
         const schedule = res.data.find((data) => data.tanggal === _currentDate);
         const { shubuh, terbit, dzuhur, ashr, magrib, isya } = schedule;
-
         const location = `${_location.charAt(0).toUpperCase()}${_location.slice(
           1
         )}`;
@@ -46,6 +41,7 @@ module.exports = {
             { name: "Dzuhur", value: dzuhur, inline: true },
             { name: "Ashar", value: ashr, inline: true },
             { name: "Maghrib", value: magrib, inline: true },
+            { name: "Isya", value: isya, inline: true },
             {
               name: "Sumber Data",
               value: "https://github.com/lakuapik/jadwalsholatorg",

@@ -23,12 +23,15 @@
 - date-fns
 - discord.js
 - openai
+- libsodium-wrappers
+- ffmpeg-static
 
 ## Resources
 
 - [Jadwal Sholat / Prayer Schedule](https://github.com/lakuapik/jadwalsholatorg)
 - [surah](https://github.com/rioastamal/quran-json)
 - [Open AI](https://beta.openai.com/docs/introduction)
+- [Murotal API](https://api.quran.gading.dev/)
 
 ## Installation
 
@@ -68,6 +71,8 @@ $ docker run -it registry.gitlab.com/zainal21/discord-bot:latest  //-it running 
 ![result](screen/image1.png)
 ![surah](screen/image3.png)
 ![result](screen/image2.png)
+![result](screen/image8.png)
+![result](screen/image9.png)
 
 ---
 
