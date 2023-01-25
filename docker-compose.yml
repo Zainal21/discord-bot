@@ -1,0 +1,17 @@
+# version docker-compose
+version: "3.7"
+networks:
+  discord_bot_network:
+    name: discord_bot_network
+services:
+  redis:
+    container_name: bot_container
+    image: registry.gitlab.com/zainal21/discord-bot:latest
+    ports:
+      - 6379:6379
+    volumes:
+      - data_volume:/src/usr/app
+    networks:
+      - discord_bot_network
+volumes:
+  data_volume:
