@@ -4,7 +4,7 @@ networks:
   discord_bot_network:
     name: discord_bot_network
 services:
-  redis:
+  bot:
     container_name: bot_container
     image: registry.gitlab.com/zainal21/discord-bot:latest
     ports:
