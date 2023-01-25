@@ -63,13 +63,13 @@ $  node app.js
 
 ```bash
 $ docker pull registry.gitlab.com/zainal21/discord-bot
-$ docker run -it registry.gitlab.com/zainal21/discord-bot:latest  //-it running with iteractive shell
+$ docker run -it registry.gitlab.com/zainal21/discord-bot:latest
 ```
 
 6. if your running inside container using docker compose plugin, you can run command :
 
 ```bash
-$ docker compose up -d // -d running in background
+$ docker compose up -d
 ```
 
 ## Screen Capture
