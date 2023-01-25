@@ -52,7 +52,7 @@ $ yarn install or npm install
 
 3. Setup your environment variable in `.env` files or rename `.env.example to .env`.
 
-4. run script and scan qr code to your phone
+4. run script
 
 ```bash
 $  node deploy-command.js // for initialize discord command handler
