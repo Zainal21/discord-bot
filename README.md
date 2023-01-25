@@ -66,7 +66,7 @@ $ docker pull registry.gitlab.com/zainal21/discord-bot
 $ docker run -it registry.gitlab.com/zainal21/discord-bot:latest  //-it running with iteractive shell
 ```
 
-6. if your running inside containe using docker compose plugin, you can run command :
+6. if your running inside container using docker compose plugin, you can run command :
 
 ```bash
 $ docker compose up -d // -d running in background
