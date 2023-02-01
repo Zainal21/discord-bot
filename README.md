@@ -32,6 +32,7 @@
 - [surah](https://github.com/rioastamal/quran-json)
 - [Open AI](https://beta.openai.com/docs/introduction)
 - [Murotal API](https://api.quran.gading.dev/)
+- [Random Prayer](https://doa-doa-api-ahmadramadhan.fly.dev/api/doa/v1/random)
 
 ## Installation
 
@@ -79,6 +80,7 @@ $ docker compose up -d
 ![result](screen/image2.png)
 ![result](screen/image8.png)
 ![result](screen/image9.png)
+![result](screen/image5.png)
 
 ---
 
