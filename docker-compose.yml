@@ -1,4 +1,3 @@
-# version docker-compose
 version: "3.7"
 networks:
   discord_bot_network:
@@ -6,7 +5,7 @@ networks:
 services:
   bot:
     container_name: bot_container
-    image: registry.gitlab.com/zainal21/discord-bot:latest
+    image: registry.gitlab.com/zainal21/discord-bot:${BOT_IMAGE_VERSION}
     volumes:
       - data_volume:/src/usr/app
     networks:
