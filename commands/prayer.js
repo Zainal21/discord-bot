@@ -17,12 +17,12 @@ module.exports = {
       .then((res) => {
         const { doa, ayat, latin, artinya } = res.data[0];
         const prayerMessage = new EmbedBuilder()
-          .setTitle(`📿`)
+          .setTitle(`Prayer of Today📿`)
           .addFields([
             { name: "Doa", value: doa.toString() },
             { name: "Ayat", value: ayat.toString() },
-            { name: "Latin", value: latin.toString(), inline: true },
-            { name: "Artinya", value: artinya.toString(), inline: true },
+            { name: "Latin", value: latin.toString() },
+            { name: "Artinya", value: artinya.toString() },
             {
               name: "Sumber Data",
               value:
